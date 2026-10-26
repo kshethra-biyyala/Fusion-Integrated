@@ -6,7 +6,7 @@ PERMISSIONS = [
     ("leave_elm.application.manage", "Manage leaves"),
 ]
 
-ROLES = {
+ROLE_GRANTS = {
     "Employee": [
         "leave_elm.application.view",
         "leave_elm.application.apply",
@@ -21,7 +21,7 @@ ROLES = {
         "leave_elm.application.manage",
     ],
     "Leave Administrator": [
-        "leave.application.view",
+        "leave_elm.application.view",
         "leave_elm.application.apply",
         "leave_elm.application.approve",
         "leave_elm.application.manage",

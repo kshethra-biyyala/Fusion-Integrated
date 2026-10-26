@@ -8,7 +8,7 @@ PERMISSIONS = [
 _EMPLOYEE = ["leave_elm.application.view", "leave_elm.application.apply"]
 _APPROVER = ["leave_elm.application.view", "leave_elm.application.approve"]
 _UNIT_HEAD = ["leave_elm.application.view", "leave_elm.application.approve", "leave_elm.application.manage"]
-_LEAVE_ADMIN = ["leave_elm.application.view", "leave_elm.application.approve", "leave_elm.application.manage"]
+_LEAVE_ADMIN = ["leave_elm.application.view", "leave_elm.application.apply", "leave_elm.application.approve", "leave_elm.application.manage"]
 
 ROLE_GRANTS = {
     "Employee": _EMPLOYEE,
